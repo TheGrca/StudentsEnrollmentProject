@@ -1,0 +1,7 @@
+Naziv skole: NEUPISANI Adresa: / ID: /
+Ucenici:
+**********************************
+Naziv skole: q Adresa: zz ID: 11
+Ucenici:
+1. Ime: aa Prezime: aa JMBG: 111 Adresa: aa
+**********************************

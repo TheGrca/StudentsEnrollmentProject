@@ -1,0 +1,28 @@
+﻿<Window x:Class="Projekat.DodajSkoluPopUp" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekat"
+        mc:Ignorable="d"
+        Title="DODAJ ŠKOLU" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Naziv škole" Grid.Row="0" HorizontalAlignment="Center" Margin="0 10"/>
+        <TextBox x:Name="DodajSkolu" Grid.Row="0" Margin="30, 40, 30, 10" VerticalContentAlignment="Center"/>
+
+        <Label Content="ID škole" Grid.Row="1" HorizontalAlignment="Center" Margin="0 10"/>
+        <TextBox x:Name="DodajId" Grid.Row="1" Margin="30, 40, 30, 10" VerticalContentAlignment="Center"/>
+        
+        <Label Content="Adresa škole" Grid.Row="2" HorizontalAlignment="Center" Margin="0 10"/>
+        <TextBox x:Name="DodajAdresu" Grid.Row="2" Margin="30, 40, 30, 10" VerticalContentAlignment="Center"/>
+
+        <Button x:Name="btnDodajSkoluPopUp" Content="DODAJ ŠKOLU" Grid.Row="3" Margin="100, 20" Click="btnDodajSkoluPopUp_Click"/>
+    </Grid>
+</Window>
